@@ -8,6 +8,7 @@ public class Atividade2 {
         try ( Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite a largura do terreno em metros: ");
             double largura = scanner.nextDouble();
+            
             System.out.print("Digite o comprimento do terreno em metros: ");
             double comprimento = scanner.nextDouble();
 

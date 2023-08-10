@@ -8,6 +8,7 @@ public class Atividade1 {
         try ( Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite o seu cargo do funcionário (Gerente/Supervisor/Tecnico/Auxiliar): ");
             String cargo = scanner.nextLine();
+            
 
             double salarioBase = 0;
             double inssPorcentagem = 0;
