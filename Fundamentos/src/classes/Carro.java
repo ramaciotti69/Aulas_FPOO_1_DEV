@@ -10,8 +10,8 @@ package classes;
  */
 public class Carro {
     private String modelo;
-    private String marca;
-    private String cor;
+    private MarcaEnum marca;
+    private CorEnum cor;
     private int ano;
     private int rodas;
     private String chassi;
@@ -19,7 +19,7 @@ public class Carro {
     private int velocidade;
     
 
-    public Carro(String modelo, String marca, String cor, int ano, int rodas, String chassi) {
+    public Carro(String modelo, MarcaEnum marca, CorEnum cor, int ano, int rodas, String chassi) {
         this.modelo = modelo;
         this.marca = marca;
         this.cor = cor;

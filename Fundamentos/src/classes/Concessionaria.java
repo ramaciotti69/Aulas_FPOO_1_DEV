@@ -10,13 +10,13 @@ package classes;
  */
 public class Concessionaria {
     public static void main(String[] args) {
-        Carro fiatMarea = new Carro("Marea", "Fiat", "Azul", 1999, 4, "AB1837BD");
+        Carro carros = new Carro("Marea", MarcaEnum.TOYOTA, CorEnum.AMARELO, 1999, 4, "AB1837BD");
         
-        System.out.println(fiatMarea);
+        System.out.println(carros);
         
-        fiatMarea.andar(110);
-         fiatMarea.andar(160); 
-        System.out.println(fiatMarea);
+        carros.andar(110);
+         carros.andar(160); 
+        System.out.println(carros);
     }
 }
 
