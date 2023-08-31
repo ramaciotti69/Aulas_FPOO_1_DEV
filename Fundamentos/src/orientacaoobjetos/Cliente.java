@@ -64,6 +64,9 @@ public class Cliente implements AluguelFilme, CadastroCliente {
 
     @Override
     public boolean validarEmailDominioGoogle(String email) {
+        if (email == null) {
+            return false;
+        }
         if (email.contains("@gmail.com")) {
             System.out.println("O e-mail " + email + " é do Google");
             return true;
@@ -78,3 +81,5 @@ public class Cliente implements AluguelFilme, CadastroCliente {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
+
+    

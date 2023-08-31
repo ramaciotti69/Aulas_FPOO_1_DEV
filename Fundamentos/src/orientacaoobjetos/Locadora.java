@@ -21,16 +21,14 @@ public class Locadora {
         double valorLocacaoSimples = c1.calcularLocacao(3);
         System.out.println("O valor para a locação do filme é: " + valorLocacaoSimples);
         c1.validarNome(c1.getNome());
-         c1.verificarEmailDominioGoogle(c1.getEmail());
+        c1.verificarEmailDominioGoogle(c1.getEmail());
 
         Cliente c2 = new Cliente("Ronalda Márta", "ronaldamarta@gmail.com");
         System.out.println(c2);
         double valorLocacaoLancamento = c2.calcularLocacao(3, true);
         System.out.println("O valor para a locação do filme de lançamento é: " + valorLocacaoLancamento);
- c2.validarNome(c2.getNome());
-         c2.verificarEmailDominioGoogle(c2.getEmail());
+        c2.validarNome(c2.getNome());
+        c2.verificarEmailDominioGoogle(c2.getEmail());
     }
-    
-    
-    
+
 }
